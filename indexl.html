@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portafolio de Programación</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 font-sans">
+  <header class="bg-blue-800 text-white p-4 shadow-md">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Mi Portafolio</h1>
+      <nav>
+        <ul class="flex space-x-4">
+          <li><a href="#sobre-mi" class="hover:underline">Sobre mí</a></li>
+          <li><a href="#proyectos" class="hover:underline">Proyectos</a></li>
+          <li><a href="#contacto" class="hover:underline">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="text-center py-10 bg-white" id="inicio">
+    <h2 class="text-4xl font-bold mb-4">Hola, soy Aaron Gutiérrez</h2>
+    <p class="text-gray-700 text-lg max-w-3xl mx-auto">Desarrollador apasionado por la programación. Este es mi portafolio donde muestro algunos de mis proyectos y habilidades.</p>
+    <p class="text-gray-700 text-lg max-w-1xl mx-auto">Soy un programador con experiencia en java, Python, C# y MySQL.</p>
+    <p class="text-gray-700 text-lg max-w-1xl mx-auto">Me gusta aprender nuevas tecnologías y mejorar mis habilidades constantemente.</p>
+</section>
+
+  <section id="proyectos" class="py-16 bg-white">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-semibold text-center mb-8">Mis Proyectos</h2>
+      <p class="mb-6 mx-auto text-center text-gray-700">Aquí encontrará algunos de los proyectos personales y en los que he trabajado.</p>
+      <p class="max-w-3xl mx-auto text-gray-800"> </p>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+
+        <!-- Proyecto ejemplo -->
+        <div class="bg-gray-100 p-4 rounded shadow">
+          <h3 class="text-xl font-bold">Proyecto 1</h3>
+          <p class="text-gray-600">Es un login de registro de usuario.</p>
+            <a href="https://minato57.github.io/Proyecto/" target="_blank" class="text-blue-700 hover:underline">Ver proyecto</a>
+</div>
+        </div>
+        <!-- Agrega más proyectos aquí -->
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" class="py-16 bg-gray-200 text-center">
+    <h2 class="text-3xl font-semibold mb-4">Contacto</h2>
+    <p class="mb-6 text-gray-700">Puedes contactarme a través del siguiente formulario.</p>
+    <form class="max-w-md mx-auto bg-white p-6 rounded shadow">
+      <input type="text" placeholder="Tu nombre" class="w-full mb-4 p-2 border rounded">
+      <input type="email" placeholder="Tu correo" class="w-full mb-4 p-2 border rounded">
+      <textarea placeholder="Tu mensaje" class="w-full mb-4 p-2 border rounded"></textarea>
+      <button type="submit" class="bg-blue-800 text-white px-4 py-2 rounded hover:bg-blue-900">Enviar</button>
+    </form>
+  </section>
+
+  <footer class="bg-blue-800 text-white text-center p-4 mt-8">
+    <p>&copy; 2025 Mi Portafolio. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
